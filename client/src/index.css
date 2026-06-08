@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #f5f7fb;
+  color: #0f172a;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.page-pad {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.card {
+  border: 1px solid #dbe3ef;
+  background: white;
+  border-radius: 18px;
+}
+
+.gradient-blue-green {
+  background: linear-gradient(135deg, #2563eb 0%, #0891b2 48%, #10b981 100%);
+}
+
+.gradient-purple-blue {
+  background: linear-gradient(135deg, #a21caf 0%, #7c3aed 48%, #2563eb 100%);
+}
+
+.gradient-red-orange {
+  background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+}
