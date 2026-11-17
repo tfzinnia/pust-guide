@@ -14,7 +14,12 @@ body,
 
 body {
   margin: 0;
-  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
     sans-serif;
   background: #f5f7fb;
   color: #0f172a;
@@ -30,6 +35,12 @@ textarea {
 .app-shell {
   min-height: 100vh;
   background: #f5f7fb;
+}
+.assistant-panel {
+  right: 1rem;
+  bottom: 5.5rem;
+  width: min(420px, calc(100vw - 2rem));
+  height: min(680px, calc(100dvh - 7rem));
 }
 
 .page-pad {
@@ -53,4 +64,79 @@ textarea {
 
 .gradient-red-orange {
   background: linear-gradient(135deg, #ef4444 0%, #f97316 100%);
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-wait disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-50 disabled:opacity-50;
+  }
+  .field {
+    @apply mb-4 block text-sm font-semibold text-slate-700;
+  }
+  .field > input:not([type="checkbox"]),
+  .field > select,
+  .field > textarea {
+    @apply mt-2 block w-full rounded-xl border border-slate-300 bg-white px-3 py-3 font-normal text-slate-900;
+  }
+  .field > input[type="checkbox"] {
+    @apply h-5 w-5;
+  }
+  .notice {
+    @apply mb-4 rounded-xl border border-blue-200 bg-blue-50 p-4 text-sm text-blue-800;
+  }
+  .notice-error {
+    @apply border-red-200 bg-red-50 text-red-800;
+  }
+  .notice-success {
+    @apply border-green-200 bg-green-50 text-green-800;
+  }
+}
+:focus-visible {
+  outline: 3px solid #0891b2 !important;
+  outline-offset: 3px;
+}
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+button {
+  cursor: pointer;
+}
+button:disabled {
+  cursor: wait;
+}
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -6rem;
+  z-index: 100;
+  padding: 1rem;
+  background: white;
+  color: #1d4ed8;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+.app-shell {
+  max-width: 1120px;
+  margin-inline: auto;
+}
+@media (min-width: 768px) {
+  .page-pad {
+    padding-inline: 32px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }

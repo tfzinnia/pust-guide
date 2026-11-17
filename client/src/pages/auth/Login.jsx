@@ -1,157 +1,137 @@
-import { GraduationCap, Lock, Mail } from "lucide-react";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { useAuth } from "../../context/AuthContext";
-
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
+import { GraduationCap } from "lucide-react";
+import { useAuth } from "../../context/auth";
+import Field from "../../components/ui/Field";
+import { Feedback } from "../../components/ui/Feedback";
 export default function Login() {
-  const [roleTab, setRoleTab] = useState("student");
-  const [identifier, setIdentifier] = useState("");
-  const [password, setPassword] = useState("");
-  const [error, setError] = useState("");
-
-  const { login, continueAsGuest } = useAuth();
-  const navigate = useNavigate();
-
-  const roleColor =
-    roleTab === "teacher"
-      ? "bg-green-600"
-      : roleTab === "admin"
-        ? "bg-purple-600"
-        : "bg-blue-600";
-
-  const label =
-    roleTab === "teacher"
-      ? "Email or Teacher ID"
-      : roleTab === "admin"
-        ? "Admin Email"
-        : "Email or Student ID";
-
-  const buttonText =
-    roleTab === "teacher"
-      ? "Login as Teacher"
-      : roleTab === "admin"
-        ? "Login as Admin"
-        : "Login";
-
-  async function handleSubmit(e) {
-    e.preventDefault();
-    setError("");
-
+  const [params] = useSearchParams();
+  const [role, setRole] = useState("student"),
+    [identifier, setIdentifier] = useState(""),
+    [password, setPassword] = useState(""),
+    [state, setState] = useState({});
+  const { login, continueAsGuest } = useAuth(),
+    navigate = useNavigate();
+  async function submit(event) {
+    event.preventDefault();
+    setState({ busy: true });
     try {
-      const user = await login(identifier, password);
-
-      if (roleTab === "student" && user.role !== "student") {
-        setError("Please select the correct login type.");
-        return;
-      }
-
-      if (roleTab === "teacher" && user.role !== "teacher") {
-        setError("Please select the correct login type.");
-        return;
-      }
-
-      if (roleTab === "admin" && user.role !== "super_admin") {
-        setError("Please select the correct login type.");
-        return;
-      }
-
-      if (user.role === "teacher") navigate("/teacher");
-      else if (user.role === "super_admin") navigate("/admin");
-      else navigate("/");
-    } catch (err) {
-      setError(err.response?.data?.message || "Login failed");
+      const user = await login(identifier, password, role);
+      const next = params.get("next");
+      const safeNext =
+        typeof next === "string" &&
+        /^\/(?:complaint(?:\?category=(?:ragging|harassment|hall|transport|classroom|academic|others))?|complaint-tracking|departments|saved|notifications|settings)$/.test(
+          next,
+        );
+      navigate(
+        user.role === "student" && safeNext
+          ? next
+          : user.role === "super_admin"
+            ? "/admin"
+            : user.role === "teacher"
+              ? "/teacher"
+              : "/",
+      );
+    } catch (error) {
+      setState({
+        error:
+          error.response?.data?.message ||
+          "Unable to sign in. Check your connection.",
+      });
     }
   }
-
-  function guestLogin() {
-    continueAsGuest();
-    navigate("/");
-  }
-
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-green-50 px-6">
+    <main className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-emerald-50 p-6">
       <div className="w-full max-w-md">
-        <div className="text-center">
-          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-blue-600 text-white">
-            <GraduationCap size={34} />
-          </div>
-
-          <h1 className="mt-5 text-3xl font-bold">Welcome to PUST Guide</h1>
-          <p className="mt-2 text-slate-500">Your smart campus companion</p>
+        <div className="mb-7 text-center">
+          <GraduationCap className="mx-auto text-blue-600" size={48} />
+          <h1 className="mt-3 text-3xl font-bold">PUST Guide</h1>
+          <p className="mt-2 text-slate-500">
+            Everything you need for campus life.
+          </p>
         </div>
-
-        <div className="mt-8 grid grid-cols-3 rounded-2xl bg-slate-200 p-1">
-          {["student", "teacher", "admin"].map((item) => (
-            <button
-              key={item}
-              onClick={() => setRoleTab(item)}
-              className={`rounded-xl py-2 font-semibold capitalize ${
-                roleTab === item ? "bg-white" : "text-slate-700"
-              }`}
-            >
-              {item === "student" ? "Student" : item === "teacher" ? "Teacher" : "Admin"}
-            </button>
-          ))}
-        </div>
-
-        <form onSubmit={handleSubmit} className="mt-7">
-          {error && (
-            <div className="mb-4 rounded-xl bg-red-50 p-3 text-sm text-red-600">
-              {error}
-            </div>
-          )}
-
-          <label className="font-semibold">{label}</label>
-          <div className="mt-2 flex items-center gap-3 rounded-xl bg-slate-100 px-4">
-            <Mail size={20} className="text-slate-500" />
-            <input
-              value={identifier}
-              onChange={(e) => setIdentifier(e.target.value)}
-              placeholder={`Enter your ${label.toLowerCase()}`}
-              className="w-full bg-transparent py-3 outline-none"
-            />
-          </div>
-
-          <label className="mt-5 block font-semibold">Password</label>
-          <div className="mt-2 flex items-center gap-3 rounded-xl bg-slate-100 px-4">
-            <Lock size={20} className="text-slate-500" />
-            <input
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              type="password"
-              placeholder="Enter your password"
-              className="w-full bg-transparent py-3 outline-none"
-            />
-          </div>
-
-          <button type="button" className="mt-4 text-blue-600">
-            Forgot password?
-          </button>
-
-          <button
-            type="submit"
-            className={`mt-6 w-full rounded-xl py-3 font-semibold text-white ${roleColor}`}
+        <form className="card p-6" onSubmit={submit}>
+          <div
+            className="mb-6 flex gap-2"
+            role="group"
+            aria-label="Account type"
           >
-            {buttonText}
+            {[
+              ["student", "Student"],
+              ["teacher", "Teacher"],
+              ["super_admin", "Admin"],
+            ].map(([key, label]) => (
+              <button
+                type="button"
+                key={key}
+                aria-pressed={role === key}
+                className={`${role === key ? "btn-primary" : "btn-secondary"} flex-1`}
+                onClick={() => {
+                  setRole(key);
+                  setState({});
+                }}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+          <Feedback {...state} />
+          <Field
+            name="login-identifier"
+            label={
+              role === "student"
+                ? "Email or student roll"
+                : role === "teacher"
+                  ? "Email or teacher ID"
+                  : "Admin email"
+            }
+            value={identifier}
+            onChange={setIdentifier}
+            autoComplete="username"
+            maxLength={254}
+            required
+          />
+          <Field
+            name="login-password"
+            label="Password"
+            type="password"
+            value={password}
+            onChange={setPassword}
+            autoComplete="current-password"
+            required
+          />
+          <Link
+            className="mb-5 block text-right text-sm text-blue-700"
+            to="/forgot-password"
+          >
+            Forgot password?
+          </Link>
+          <button className="btn-primary w-full" disabled={state.busy}>
+            {state.busy ? "Signing in…" : "Sign in"}
           </button>
-        </form>
-
-        {roleTab !== "admin" && (
-          <p className="mt-8 text-center text-slate-600">
-            Don't have an account?{" "}
-            <Link to="/signup" className="font-semibold text-blue-600">
-              Sign Up
+          <p className="mt-5 text-center text-sm text-slate-600">
+            New student?{" "}
+            <Link className="font-semibold text-blue-700" to="/signup">
+              Create an account
             </Link>
           </p>
-        )}
-
+        </form>
         <button
-          onClick={guestLogin}
-          className="mt-8 w-full text-center font-medium text-slate-600"
+          className="btn-secondary mt-4 w-full"
+          onClick={() => {
+            continueAsGuest();
+            navigate("/");
+          }}
         >
-          Continue as Guest
+          Continue as guest
         </button>
+        <Link
+          className="mt-4 block text-center text-sm font-semibold text-red-700"
+          to="/emergency"
+        >
+          Emergency contacts
+        </Link>
       </div>
-    </div>
+    </main>
   );
 }

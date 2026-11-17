@@ -1,7 +1,7 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import api from "../api/axios";
-
-const AuthContext = createContext(null);
+import { AuthContext } from "./auth";
+import { clearOfflineData } from "../utils/offline";
 
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);
@@ -26,8 +26,17 @@ export function AuthProvider({ children }) {
         }
 
         const res = await api.get("/auth/me");
+        localStorage.setItem("pust_profile", JSON.stringify(res.data.user));
         setUser(res.data.user);
-      } catch {
+      } catch (error) {
+        if (!error.response && localStorage.getItem("pust_profile")) {
+          try {
+            setUser(JSON.parse(localStorage.getItem("pust_profile")));
+          } catch {
+            localStorage.removeItem("pust_profile");
+          }
+          return;
+        }
         localStorage.removeItem("pust_token");
         localStorage.removeItem("pust_guest");
         setUser(null);
@@ -40,13 +49,15 @@ export function AuthProvider({ children }) {
     loadUser();
   }, []);
 
-  async function login(identifier, password) {
+  async function login(identifier, password, role) {
     const res = await api.post("/auth/login", {
       identifier,
       password,
+      role,
     });
 
     localStorage.setItem("pust_token", res.data.token);
+    localStorage.setItem("pust_profile", JSON.stringify(res.data.user));
     localStorage.removeItem("pust_guest");
 
     setUser(res.data.user);
@@ -60,6 +71,7 @@ export function AuthProvider({ children }) {
   }
 
   function continueAsGuest() {
+    clearOfflineData();
     localStorage.removeItem("pust_token");
     localStorage.setItem("pust_guest", "true");
 
@@ -68,12 +80,21 @@ export function AuthProvider({ children }) {
   }
 
   function logout() {
+    clearOfflineData();
     localStorage.removeItem("pust_token");
     localStorage.removeItem("pust_guest");
 
     setUser(null);
     setIsGuest(false);
   }
+
+  useEffect(() => {
+    function expire() {
+      logout();
+    }
+    window.addEventListener("pust:session-expired", expire);
+    return () => window.removeEventListener("pust:session-expired", expire);
+  }, []);
 
   return (
     <AuthContext.Provider
@@ -85,13 +106,13 @@ export function AuthProvider({ children }) {
         studentSignup,
         continueAsGuest,
         logout,
+        updateUser: (nextUser) => {
+          setUser(nextUser);
+          localStorage.setItem("pust_profile", JSON.stringify(nextUser));
+        },
       }}
     >
       {children}
     </AuthContext.Provider>
   );
-}
-
-export function useAuth() {
-  return useContext(AuthContext);
 }

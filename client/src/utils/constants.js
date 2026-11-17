@@ -1,12 +1,8 @@
-export const SESSIONS = [
-  "2020-2021",
-  "2021-2022",
-  "2022-2023",
-  "2023-2024",
-  "2024-2025",
-  "2025-2026",
-  "2026-2027",
-];
+const currentYear = new Date().getFullYear();
+export const SESSIONS = Array.from(
+  { length: Math.max(8, currentYear - 2018) },
+  (_, index) => `${2020 + index}-${2021 + index}`,
+);
 
 export const YEARS = ["1st Year", "2nd Year", "3rd Year", "4th Year"];
 

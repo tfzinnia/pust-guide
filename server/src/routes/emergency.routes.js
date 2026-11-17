@@ -13,25 +13,20 @@ const router = express.Router();
 
 router.get("/", getEmergencyContacts);
 
-router.post(
-  "/",
-  protect,
-  allowRoles("super_admin"),
-  createEmergencyContact
-);
+router.post("/", protect, allowRoles("super_admin"), createEmergencyContact);
 
 router.patch(
   "/:id",
   protect,
   allowRoles("super_admin"),
-  updateEmergencyContact
+  updateEmergencyContact,
 );
 
 router.delete(
   "/:id",
   protect,
   allowRoles("super_admin"),
-  deleteEmergencyContact
+  deleteEmergencyContact,
 );
 
 module.exports = router;

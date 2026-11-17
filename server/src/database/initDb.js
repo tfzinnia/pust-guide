@@ -1,55 +1,94 @@
 const fs = require("fs");
 const path = require("path");
 const bcrypt = require("bcryptjs");
-const { db, run, get } = require("../config/db");
+const { run, get, all, exec } = require("../config/db");
 
 async function initDb() {
-  try {
-    const schemaPath = path.join(__dirname, "schema.sql");
-    const schema = fs.readFileSync(schemaPath, "utf8");
-
-    db.exec(schema, async (err) => {
-      if (err) {
-        console.error("Schema creation failed:", err.message);
-        return;
-      }
-
-      console.log("Database tables ready");
-
-      await runMigrations();
-      await seedDepartments();
-      await seedSuperAdmin();
-      await seedPublicData();
-    });
-  } catch (error) {
-    console.error("Database initialization error:", error.message);
+  const schema = fs.readFileSync(path.join(__dirname, "schema.sql"), "utf8");
+  // Existing databases may predate the audience columns used by indexes.
+  await exec(
+    schema.replace(
+      /^CREATE INDEX IF NOT EXISTS idx_(?:notices|routines)_audience.*$/gm,
+      "",
+    ),
+  );
+  await runMigrations();
+  await exec(
+    "CREATE INDEX IF NOT EXISTS idx_notices_audience ON notices(department_id,session,year,semester); CREATE INDEX IF NOT EXISTS idx_routines_audience ON routines(department_id,session,year,semester);",
+  );
+  await seedDepartments();
+  await seedSuperAdmin();
+  if (process.env.SKIP_DIRECTORY_IMPORT !== "1") {
+    const { importBundledDirectory } = require("../services/directory-import");
+    await importBundledDirectory();
   }
 }
 
-function addColumnIfMissing(table, column, definition) {
-  return new Promise((resolve) => {
-    db.all(`PRAGMA table_info(${table})`, [], async (err, rows) => {
-      if (err) return resolve();
-
-      const exists = rows.some((row) => row.name === column);
-
-      if (!exists) {
-        db.run(`ALTER TABLE ${table} ADD COLUMN ${column} ${definition}`, () => {
-          resolve();
-        });
-      } else {
-        resolve();
-      }
-    });
-  });
+async function addColumnIfMissing(table, column, definition) {
+  const rows = await all(`PRAGMA table_info(${table})`);
+  if (!rows.some((row) => row.name === column))
+    await run(`ALTER TABLE ${table} ADD COLUMN ${column} ${definition}`);
 }
 
 async function runMigrations() {
+  await addColumnIfMissing(
+    "directory_imports",
+    "is_current",
+    "INTEGER NOT NULL DEFAULT 0",
+  );
+  await addColumnIfMissing(
+    "directory_offices",
+    "is_active",
+    "INTEGER NOT NULL DEFAULT 1",
+  );
+  await addColumnIfMissing(
+    "directory_people",
+    "is_active",
+    "INTEGER NOT NULL DEFAULT 1",
+  );
+  const departmentColumns = {
+    source_key: "TEXT",
+    official_name: "TEXT",
+    official_code: "TEXT",
+    official_short_name: "TEXT",
+    faculty_name: "TEXT",
+    source_url: "TEXT",
+    checked_at: "TEXT",
+    contact_emails_json: "TEXT DEFAULT '[]'",
+    contact_phones_json: "TEXT DEFAULT '[]'",
+    programs_json: "TEXT DEFAULT '[]'",
+    resources_json: "TEXT DEFAULT '[]'",
+    source_notes_json: "TEXT DEFAULT '[]'",
+  };
+  for (const [column, definition] of Object.entries(departmentColumns))
+    await addColumnIfMissing("departments", column, definition);
+  await run(
+    "CREATE UNIQUE INDEX IF NOT EXISTS idx_departments_source ON departments(source_key) WHERE source_key IS NOT NULL",
+  );
   await addColumnIfMissing("notices", "session", "TEXT");
   await addColumnIfMissing("syllabus", "session", "TEXT");
   await addColumnIfMissing("routines", "session", "TEXT");
   await addColumnIfMissing("marking_criteria", "session", "TEXT");
-  await addColumnIfMissing("emergency_contacts", "is_urgent", "INTEGER DEFAULT 0");
+  await addColumnIfMissing(
+    "emergency_contacts",
+    "is_urgent",
+    "INTEGER DEFAULT 0",
+  );
+  await addColumnIfMissing(
+    "emergency_contacts",
+    "is_verified",
+    "INTEGER DEFAULT 0",
+  );
+  await addColumnIfMissing(
+    "complaints",
+    "assigned_to",
+    "INTEGER REFERENCES users(id)",
+  );
+  await addColumnIfMissing(
+    "users",
+    "token_version",
+    "INTEGER NOT NULL DEFAULT 0",
+  );
 
   console.log("Migrations checked");
 }
@@ -69,13 +108,13 @@ async function seedDepartments() {
   for (const dept of departments) {
     const existing = await get(
       "SELECT id FROM departments WHERE short_name = ?",
-      [dept[1]]
+      [dept[1]],
     );
 
     if (!existing) {
       await run(
         "INSERT INTO departments (name, short_name) VALUES (?, ?)",
-        dept
+        dept,
       );
     }
   }
@@ -85,89 +124,17 @@ async function seedDepartments() {
 
 async function seedSuperAdmin() {
   const existingAdmin = await get(
-    "SELECT id FROM users WHERE role = 'super_admin'"
+    "SELECT id FROM users WHERE role = 'super_admin'",
   );
-
-  if (!existingAdmin) {
-    const hashedPassword = await bcrypt.hash("admin123", 10);
-
-    await run(
-      `INSERT INTO users 
-      (name, email, password, role)
-      VALUES (?, ?, ?, ?)`,
-      ["Super Admin", "admin@pustguide.com", hashedPassword, "super_admin"]
-    );
-
-    console.log("Default super admin created");
-    console.log("Email: admin@pustguide.com");
-    console.log("Password: admin123");
-  }
-}
-
-async function seedPublicData() {
-  const emergency = await get("SELECT id FROM emergency_contacts LIMIT 1");
-
-  if (!emergency) {
-    const contacts = [
-      ["Anti-Ragging Cell", "+880-1234-567890", "Report ragging incidents", 1],
-      ["Proctor Office", "+880-1234-567891", "Student discipline & welfare", 0],
-      ["Campus Security", "+880-1234-567892", "Emergency security assistance", 1],
-      ["Medical Center", "+880-1234-567893", "Medical emergencies", 1],
-      ["Ambulance", "999", "Emergency ambulance service", 1],
-      ["Police", "999", "Emergency police support", 1],
-    ];
-
-    for (const item of contacts) {
-      await run(
-        "INSERT INTO emergency_contacts (title, phone, description, is_urgent) VALUES (?, ?, ?, ?)",
-        item
-      );
-    }
-  }
-
-  const locations = await get("SELECT id FROM campus_locations LIMIT 1");
-
-  if (!locations) {
-    const campus = [
-      ["CSE Department", "Academic", "Engineering Building"],
-      ["EEE Department", "Academic", "Engineering Building"],
-      ["Central Library", "Facility", "Library Building"],
-      ["Admin Building", "Office", "Administrative work"],
-      ["Cafeteria", "Food", "Campus food area"],
-      ["Medical Center", "Facility", "Medical support"],
-      ["Mosque", "Facility", "Prayer area"],
-      ["Boys Hall", "Hall", "Student hall"],
-      ["Girls Hall", "Hall", "Student hall"],
-    ];
-
-    for (const item of campus) {
-      await run(
-        "INSERT INTO campus_locations (name, category, description) VALUES (?, ?, ?)",
-        item
-      );
-    }
-  }
-
-  const guidelines = await get("SELECT id FROM guidelines LIMIT 1");
-
-  if (!guidelines) {
-    await run(
-      "INSERT INTO guidelines (title, description, category) VALUES (?, ?, ?)",
-      [
-        "Academic Guidelines",
-        "Attend all classes regularly. Submit assignments on time. Participate actively in class discussions. Maintain academic integrity. Consult teachers during office hours.",
-        "Academic Guidelines",
-      ]
-    );
-
-    await run(
-      "INSERT INTO guidelines (title, description, category) VALUES (?, ?, ?)",
-      [
-        "Campus Conduct",
-        "Wear student ID card at all times. Maintain discipline and respect university property. No smoking, alcohol, or drugs allowed on campus. Follow traffic rules inside campus. Keep the campus clean.",
-        "Campus Conduct",
-      ]
-    );
+  if (!existingAdmin && process.env.ADMIN_EMAIL && process.env.ADMIN_PASSWORD) {
+    const { email, password } = require("../utils/http");
+    await run("INSERT INTO users (name,email,password,role) VALUES (?,?,?,?)", [
+      "Super Admin",
+      email(process.env.ADMIN_EMAIL),
+      await bcrypt.hash(password(process.env.ADMIN_PASSWORD), 12),
+      "super_admin",
+    ]);
+    console.log("Configured administrator created");
   }
 }
 

@@ -22,14 +22,14 @@ router.patch(
   "/:id",
   protect,
   allowRoles("teacher", "super_admin"),
-  updateNotice
+  updateNotice,
 );
 
 router.delete(
   "/:id",
   protect,
   allowRoles("teacher", "super_admin"),
-  deleteNotice
+  deleteNotice,
 );
 
 module.exports = router;

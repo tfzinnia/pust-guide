@@ -1,0 +1,2777 @@
+{
+  "checked_at": "2026-11-17",
+  "source_urls": [
+    "https://pust.ac.bd/administration/All-Office",
+    "https://pust.ac.bd/facilities/library/library_officers",
+    "https://pust.ac.bd/facilities/medical/medical_officers",
+    "https://pust.ac.bd/facilities/transportation",
+    "https://pust.ac.bd/facilities/residence/O19",
+    "https://pust.ac.bd/facilities/residence/O20",
+    "https://pust.ac.bd/facilities/residence/dormitory",
+    "https://pust.ac.bd/facilities/library",
+    "https://pust.ac.bd/facilities/medical",
+    "https://pust.ac.bd/facilities/residence",
+    "https://pust.ac.bd/academic/all_dean"
+  ],
+  "offices": [
+    {
+      "id": "vice-chancellor-office",
+      "name": "Vice-Chancellor Office",
+      "source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "vc@pust.ac.bd",
+      "office_phone": "+8802588842379",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Prof. Dr. Abul Hasnat Md. Shamim",
+          "designation": "Vice Chancellor",
+          "email": "vc@pust.ac.bd",
+          "office_phone": "+8802588842379",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Sakil Ahmed Mondal",
+          "designation": "Protocol Officer",
+          "email": "sakilru@pust.ac.bd",
+          "office_phone": "+8802588845790",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md Jasim Uddin",
+          "designation": "Section Officer",
+          "email": "jasim.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Hasibur Rahaman",
+          "designation": "Section Officer G-2",
+          "email": "hasibur.vco@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [
+        {
+          "name": "",
+          "designation": "PS to VC (Additional charge)",
+          "email": "vcoffice@pust.ac.bd",
+          "office_phone": "+8802588845790",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "notes": [
+        "The source publishes one or more role cards with blank or placeholder names; no appointment is inferred."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Vice-Chancellor-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "pro-vice-chancellor-office",
+      "name": "Pro Vice-Chancellor Office",
+      "source_url": "https://pust.ac.bd/administration/Pro-Vice-Chancellor-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "provcoffice@pust.ac.bd",
+      "office_phone": "+8802588844111",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Prof. Dr. Md. Nazrul Islam",
+          "designation": "Pro Vice Chancellor",
+          "email": "provc@pust.ac.bd",
+          "office_phone": "+8802588844111",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Pro-Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Chowdhury Abul Kalam Azad",
+          "designation": "PS to Pro-VC",
+          "email": "azad.pvco@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Pro-Vice-Chancellor-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Pro-Vice-Chancellor-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "treasurer-office",
+      "name": "Treasurer Office",
+      "source_url": "https://pust.ac.bd/administration/Treasurer-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "treasurer@pust.ac.bd",
+      "office_phone": "02588844963",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Prof. Dr. Md. Shamim Ahsan",
+          "designation": "Treasurer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Treasurer-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Alomgir Hossain",
+          "designation": "PA to Treasurer (Additional charge)",
+          "email": "alomgir.act@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Treasurer-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Faisal Ismail",
+          "designation": "Section Officer-G2",
+          "email": "faisal.tre@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Treasurer-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Treasurer-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "registrar-office",
+      "name": "Registrar Office",
+      "source_url": "https://pust.ac.bd/administration/Registrar-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "registraroffice@pust.ac.bd",
+      "office_phone": "+8802588845193",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Bijon Kumar Brahma",
+          "designation": "Registrar",
+          "email": "registrar@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Registrar-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Esrat Jahan Ema",
+          "designation": "Assistant Registrar (Law )",
+          "email": "esratjahan.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Registrar-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Monoar Alam",
+          "designation": "Assistant Registrar",
+          "email": "monoar@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Registrar-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Shanjida Sharmin",
+          "designation": "Section Officer",
+          "email": "shanjida@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Registrar-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [
+        "The shared Contact Us footer explicitly identifies the Registrar and supplies registraroffice@pust.ac.bd / +8802588845193; the individual Registrar card separately lists registrar@pust.ac.bd."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Registrar-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "establishment-and-council-section",
+      "name": "Establishment and Council Section",
+      "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+      "checked_at": "2026-11-17",
+      "office_email": "establishment@pust.ac.bd",
+      "office_phone": "+8802588843460",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Alamgir Hossain",
+          "designation": "Director (Accounts)",
+          "email": "alamgir.audit@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Abdul Mojid",
+          "designation": "Assistant Registrar",
+          "email": "abdulmojid.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Ashadujjaman",
+          "designation": "Assistant Registrar",
+          "email": "ashad@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Imrul Ehsan",
+          "designation": "Assistant Registrar",
+          "email": "imrul@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Uzzal Chandra Sutradhar",
+          "designation": "Assistant Director (Bill & Cash)",
+          "email": "uzzalchandra@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Farzana Haque",
+          "designation": "Assistant Registrar",
+          "email": "farzana.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Farjana Boby",
+          "designation": "Section Officer (Student Welfare)",
+          "email": "farjanaboby.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Habibur Rahman",
+          "designation": "Section Officer",
+          "email": "habibur@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Akramul Haque",
+          "designation": "Section Officer",
+          "email": "akramul.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Sohan Islam Nayeem",
+          "designation": "Section Officer",
+          "email": "nayeem.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Shamsul Arefin",
+          "designation": "Section Officer -G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Mst. Sharmin Sultana",
+          "designation": "Section Officer G-2",
+          "email": "sharmin.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Momota Rani Shaha",
+          "designation": "Section Officer G-2",
+          "email": "momota.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [
+        "The source displays a first leadership card titled Director (Accounts), also listed in Finance and Accounts. Both office-role observations are retained as published; no transfer date or replacement is inferred."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Establishment-and-Council-Section",
+      "status": "reviewed"
+    },
+    {
+      "id": "academic-section",
+      "name": "Academic Section",
+      "source_url": "https://pust.ac.bd/administration/Academic-Section",
+      "checked_at": "2026-11-17",
+      "office_email": "academic@pust.ac.bd",
+      "office_phone": "+8802588843694",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Fazla Rabby Khan",
+          "designation": "Additional Controller",
+          "email": "rabby@pust.ac.bd",
+          "office_phone": "0731-64965",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Academic-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Nurul Islam",
+          "designation": "Deputy Registrar",
+          "email": "nurul.islam@pust.ac.bd",
+          "office_phone": "0731-63875",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Academic-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Most. Mahfuja Khatun",
+          "designation": "Assistant Registrar",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Academic-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Rehana Pervin",
+          "designation": "Assistant Registrar",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Academic-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Sharowar Jahan",
+          "designation": "Section Officer G-2",
+          "email": "sharowar.aca@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Academic-Section",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Academic-Section",
+      "status": "reviewed"
+    },
+    {
+      "id": "central-library-and-information-center",
+      "name": "Central Library and Information Center",
+      "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+      "checked_at": "2026-11-17",
+      "office_email": "clic@pust.ac.bd",
+      "office_phone": "+8802588844534",
+      "description": "The university central library supports students, faculty, officers and researchers, including academic and research activities.",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Hafizur Rahaman Mollah",
+          "designation": "Additional Librarian",
+          "email": "hafizur.clic@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Md. Ali Hossain",
+          "designation": "Documentation Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Ariful Islam",
+          "designation": "Section Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Shilpi Akter",
+          "designation": "Assistant Documentation Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Md. Abdul Alim",
+          "designation": "Section Officer-G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Md. Niamatullah shaikh",
+          "designation": "Assistant Documentation Officer",
+          "email": "niamatullah.clic@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Soheli Naznin",
+          "designation": "Assistant Documentation Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Zinnat",
+          "designation": "Assistant Documentation Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        },
+        {
+          "name": "Hasina Akter",
+          "designation": "Assistant Documentation Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/library/library_officers"
+          ]
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Central-Library-and-Information-Center",
+      "status": "reviewed",
+      "additional_source_urls": [
+        "https://pust.ac.bd/facilities/library/library_officers",
+        "https://pust.ac.bd/facilities/library"
+      ],
+      "description_source_url": "https://pust.ac.bd/facilities/library"
+    },
+    {
+      "id": "planning,-development-and-works-office",
+      "name": "Planning, Development and Works Office",
+      "source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "",
+      "office_phone": "+8802588844961",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "S.M. Goljar Hossain",
+          "designation": "Additional Director",
+          "email": "",
+          "office_phone": "+880731-64961",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Abdullah Al-Mamun",
+          "designation": "Assistant Registrar",
+          "email": "mamun.reg@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Sohel Rana",
+          "designation": "Planning Officer",
+          "email": "sohelpnd@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Nasim Rana",
+          "designation": "Scientific Officer(additional charge)",
+          "email": "nasim.rttc@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Abdur Razzak",
+          "designation": "Technical Officer(Photocopy)",
+          "email": "razzak@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Planning,-Development-and-Works-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "controller-office",
+      "name": "Controller Office",
+      "source_url": "https://pust.ac.bd/administration/Controller-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "controller@pust.ac.bd",
+      "office_phone": "+8802588844965",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Towhida Khanam",
+          "designation": "Additional Registrar",
+          "email": "towhida@pust.ac.bd",
+          "office_phone": "+8802588844965",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Razaul Hoque",
+          "designation": "Additional Registrar (On Lien)",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Moniruzzaman",
+          "designation": "Additional Controller of Examinations",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Kazi Md. Anisur Rahman",
+          "designation": "Deputy Director",
+          "email": "anisur.co@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Abdul Mazid",
+          "designation": "Deputy Registrar",
+          "email": "mazid@pust.ac.bd",
+          "office_phone": "0731-65184",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "S. M. Ferdousi Sattar",
+          "designation": "Assistant Librarian",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Siragul Islam",
+          "designation": "Assistant Exam Controller",
+          "email": "siragul.control@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Zahidul Alam",
+          "designation": "Assistant Registrar",
+          "email": "zahidul.control@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Rakib Hosen Miazi",
+          "designation": "Section Officer",
+          "email": "",
+          "office_phone": "+8802588844965",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Mst. Sarifa Akter",
+          "designation": "Section Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Masud Rana",
+          "designation": "Section Officer",
+          "email": "masud.co@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Most. Josna Khatun",
+          "designation": "Section Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Kamal Hossen",
+          "designation": "Section Officer",
+          "email": "kamal.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Azizul Haque",
+          "designation": "Section Officer G-2",
+          "email": "azizul.co@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Shahab Uddin",
+          "designation": "Section Officer G-2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Al Amin",
+          "designation": "Section Officer-G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Swarasati Rani",
+          "designation": "Section Officer-G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [
+        {
+          "name": "",
+          "designation": "Controller of Examinations",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Controller-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "notes": [
+        "The source publishes one or more role cards with blank or placeholder names; no appointment is inferred."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Controller-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "finance-and-accounts-office",
+      "name": "Finance and Accounts Office",
+      "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "directorfinance@pust.ac.bd",
+      "office_phone": "+8802588845281",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Alamgir Hossain",
+          "designation": "Director (Accounts)",
+          "email": "alamgir.audit@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Moynul Islam",
+          "designation": "Deputy Director(Audit)",
+          "email": "moynul@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Bazlur Rahman",
+          "designation": "Deputy Director(Finance and Accounts)",
+          "email": "bazlur.fao@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Sangita Siddiquee",
+          "designation": "Deputy Director((Finance and Accounts)",
+          "email": "sangita.finance@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Aminul Islam",
+          "designation": "Deputy Director ((Audit)",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Johurul Islam",
+          "designation": "Assistant Registrar",
+          "email": "johurul@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Sams Iara Shapla",
+          "designation": "Assistant Director (Finance and Accounts)",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Sabuj Hoshen",
+          "designation": "Assistant Director (Audit)",
+          "email": "sabuj@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Alomgir Hossain",
+          "designation": "Assistant Director",
+          "email": "alomgir.act@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Biplob Hossain",
+          "designation": "Accounts Officer",
+          "email": "biplob43@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Ziarul Haque",
+          "designation": "Section Officer -G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Allmin Islam",
+          "designation": "Section Officer -G2",
+          "email": "allmin@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Fozley Ali",
+          "designation": "Assistant Accounts Officer",
+          "email": "fozley.act@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md: Ashikuzjaman",
+          "designation": "Assistant Accounts Officer",
+          "email": "ashikuzjaman.act@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Finance-and-Accounts-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "public-relations-office",
+      "name": "Public Relations Office",
+      "source_url": "https://pust.ac.bd/administration/Public-Relations-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "pro@pust.ac.bd",
+      "office_phone": "+8802588844981",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Faruk Hossen Chowdhury",
+          "designation": "Additional Director",
+          "email": "",
+          "office_phone": "+8807316498",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Public-Relations-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Babul Hossain",
+          "designation": "Deputy Director (Public Relations)",
+          "email": "babul.pro@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Public-Relations-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Emran Ahmed",
+          "designation": "Assistant Director (Photography)",
+          "email": "emran.pro@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Public-Relations-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Abu Ishak",
+          "designation": "Section Officer-G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Public-Relations-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Public-Relations-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "medical-section",
+      "name": "Medical Section",
+      "source_url": "https://pust.ac.bd/administration/Medical-Section",
+      "checked_at": "2026-11-17",
+      "office_email": "medicalsection@pust.ac.bd",
+      "office_phone": "+8802588844975",
+      "description": "The university medical unit provides medical facilities for students, teachers and others.",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Rafiqul Islam",
+          "designation": "Deputy Chief Medical Officer",
+          "email": "drrafiqul@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Medical-Section",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/medical/medical_officers"
+          ]
+        },
+        {
+          "name": "Dr. Nasrin Sultana",
+          "designation": "Deputy Chief Medical Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Medical-Section",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/medical/medical_officers"
+          ]
+        },
+        {
+          "name": "Dr. Nelufar Yesmin",
+          "designation": "Senior Medical Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Medical-Section",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/medical/medical_officers"
+          ]
+        },
+        {
+          "name": "Dr. Farista Binta Mahmud",
+          "designation": "Medical Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Medical-Section",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/medical/medical_officers"
+          ]
+        },
+        {
+          "name": "Chumki Khatun",
+          "designation": "Nurse",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Medical-Section",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/medical/medical_officers"
+          ]
+        },
+        {
+          "name": "Rita Khatun",
+          "designation": "Nurse",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Medical-Section",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/medical/medical_officers"
+          ]
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/facilities/medical",
+      "status": "reviewed",
+      "additional_source_urls": [
+        "https://pust.ac.bd/facilities/medical/medical_officers",
+        "https://pust.ac.bd/facilities/medical"
+      ],
+      "description_source_url": "https://pust.ac.bd/facilities/medical"
+    },
+    {
+      "id": "engineering-office",
+      "name": "Engineering Office",
+      "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "university.engr@pust.ac.bd",
+      "office_phone": "+8802588845405",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Farid Ahmed",
+          "designation": "University Engineer(In charge)",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Ripon Ali",
+          "designation": "Deputy University Engineer (EEE)",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Johir Muha: Ziaul Abedin",
+          "designation": "Deputy University Engineer (Civil)",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Nayeem Rezwan",
+          "designation": "Executive Engineer (Civil)",
+          "email": "rezwan.ce@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Toufiqur Rahman",
+          "designation": "Assistant Registrar",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Abu Toha Jakir Hossain",
+          "designation": "Sub Assistant Engineer (Civil)",
+          "email": "abutoha.eo@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Atiquzzaman",
+          "designation": "Section Officer -G2",
+          "email": "atiquzzaman@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Joynal Abedin",
+          "designation": "Section Officer-G2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Engineering-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Engineering-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "proctor-office",
+      "name": "Proctor Office",
+      "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "proctor@pust.ac.bd",
+      "office_phone": "+8802588844927",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Kamruzzaman Khan",
+          "designation": "Proctor",
+          "email": "k.khanru@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Tanvir Hyder",
+          "designation": "Assistant Proctor",
+          "email": "tanvir.sazal@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Atikur Rahman",
+          "designation": "Assistant Proctor",
+          "email": "atikphy@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Ariful Islam",
+          "designation": "Assistant Proctor",
+          "email": "arif.eee@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Nehal Hasnain",
+          "designation": "Assistant Proctor",
+          "email": "nehalecon@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "S.M. Ishmam Alam",
+          "designation": "Assistant Proctor",
+          "email": "ishmam@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Saimunnahar Ritu",
+          "designation": "Assistant Proctor",
+          "email": "saimunnahar@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Byzed Hasan",
+          "designation": "Assistant Proctor",
+          "email": "byzedhasan@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Akif Mahdi",
+          "designation": "Assistant Proctor",
+          "email": "akif.mahdi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Sohel Rana",
+          "designation": "Assistant Proctor",
+          "email": "sohel.sw@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Miraj Hossain",
+          "designation": "Assistant Proctor",
+          "email": "miraj.stat@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Proctor-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Proctor-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "student-advisor-office",
+      "name": "Student Advisor Office",
+      "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "director.sao@pust.ac.bd",
+      "office_phone": "+8802588844935",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Rashedul Haque",
+          "designation": "Director",
+          "email": "rashedul.haque@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Asraful Islam",
+          "designation": "Assistant Director",
+          "email": "asru.ju1991@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Al-Amin",
+          "designation": "Assistant Director",
+          "email": "alamin_eco@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Golam Sadeque",
+          "designation": "Assistant Director",
+          "email": "msadeque.eee@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Humayra Anjum",
+          "designation": "Assistant Director",
+          "email": "humayra.geo@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Audity Biswas",
+          "designation": "Assistant Director",
+          "email": "audity12arch@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Abir Hasan",
+          "designation": "Assistant Director",
+          "email": "hasanabir.ce@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Aslam Hossain",
+          "designation": "Assistant Director",
+          "email": "aslam.math@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Imran Hossain",
+          "designation": "Assistant Director",
+          "email": "imran@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Abdul Ali Bhuiyan",
+          "designation": "Assistant Director",
+          "email": "alibhuiyan.pharm@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Nishat Tabassum",
+          "designation": "Assistant Director",
+          "email": "nishat@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Mst. Rahena Begum",
+          "designation": "Assistant Director",
+          "email": "rahena.history@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Nakib Aman",
+          "designation": "Assistant Director",
+          "email": "nakib.cse@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Tarun Debnath",
+          "designation": "Assistant Director",
+          "email": "iamtarun09@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Q.S.O Iqbal",
+          "designation": "Section Officer G-2",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Student-Advisor-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "central-cafeteria",
+      "name": "Central Cafeteria",
+      "source_url": "https://pust.ac.bd/administration/Central-Cafeteria",
+      "checked_at": "2026-11-17",
+      "office_email": "ekramul.math@pust.ac.bd",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Ekramul Islam",
+          "designation": "Director",
+          "email": "ekramul.math@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Central-Cafeteria",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Central-Cafeteria",
+      "status": "reviewed"
+    },
+    {
+      "id": "transportation-pool",
+      "name": "Transportation Pool",
+      "source_url": "https://pust.ac.bd/administration/Transportation-Pool",
+      "checked_at": "2026-11-17",
+      "office_email": "transport@pust.ac.bd",
+      "office_phone": "+8802588845650",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Mir Humayun Kabir",
+          "designation": "Administrator",
+          "email": "biplob.humayun@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Transportation-Pool",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/transportation"
+          ]
+        },
+        {
+          "name": "Md. Abu Younus",
+          "designation": "Section Officer",
+          "email": "abuyounus.tp@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Transportation-Pool",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/transportation"
+          ]
+        },
+        {
+          "name": "Nazmus Sadat Noin",
+          "designation": "Section Officer",
+          "email": "nazmussadat.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Transportation-Pool",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/transportation"
+          ]
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Transportation-Pool",
+      "status": "reviewed",
+      "additional_source_urls": [
+        "https://pust.ac.bd/facilities/transportation"
+      ]
+    },
+    {
+      "id": "male-hall-1",
+      "name": "Male Hall 1",
+      "source_url": "https://pust.ac.bd/administration/Male-Hall-1",
+      "checked_at": "2026-11-17",
+      "office_email": "swadhinata.hall@pust.ac.bd",
+      "office_phone": "+8802588845707",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Al-Fahad Bhuiyan",
+          "designation": "Provost (Current Charge)",
+          "email": "fahadpa@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Male-Hall-1",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/residence/O19"
+          ]
+        },
+        {
+          "name": "Md. Robiul Auwal Shohel",
+          "designation": "Section Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Male-Hall-1",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/residence/O19"
+          ]
+        },
+        {
+          "name": "Md. Mohaiminul Islam",
+          "designation": "Assistant Provost",
+          "email": "mohaiminul.arch@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O19",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        },
+        {
+          "name": "Nitun Kumar Podder",
+          "designation": "Assistant Provost",
+          "email": "nitun@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O19",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        },
+        {
+          "name": "Md. Mahabur Rahman",
+          "designation": "Assistant Provost",
+          "email": "mahaburrahman@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O19",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        },
+        {
+          "name": "Md. Faruk Gazi",
+          "designation": "Assistant Provost",
+          "email": "gazi.his@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O19",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [
+        "The linked facilities roster https://pust.ac.bd/facilities/residence/O19 contains 4 additional named professional role cards absent from the canonical administrative office page. Both source observations are retained; sources do not establish appointment dates."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Male-Hall-1",
+      "status": "reviewed",
+      "additional_source_urls": [
+        "https://pust.ac.bd/facilities/residence/O19",
+        "https://pust.ac.bd/facilities/residence"
+      ]
+    },
+    {
+      "id": "female-hall--1",
+      "name": "Female Hall -1",
+      "source_url": "https://pust.ac.bd/administration/Female-Hall--1",
+      "checked_at": "2026-11-17",
+      "office_email": "matrivashahall@pust.ac.bd",
+      "office_phone": "+8802588844240",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Rebeka Sultana Rekha",
+          "designation": "Provost",
+          "email": "rekha@pust.ac.bd",
+          "office_phone": "+88073165265",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Female-Hall--1",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/residence/O20"
+          ]
+        },
+        {
+          "name": "Showli Sharmin",
+          "designation": "Additional Registrar",
+          "email": "",
+          "office_phone": "0731-63875",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Female-Hall--1",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/residence/O20"
+          ]
+        },
+        {
+          "name": "MST. Afroza Akter Razia Banu",
+          "designation": "Deputy Registrar",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Female-Hall--1",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/residence/O20"
+          ]
+        },
+        {
+          "name": "Mst. Fatema Begum",
+          "designation": "Assistant Provost",
+          "email": "fatemasw@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O20",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        },
+        {
+          "name": "Kumary Sumi Rani Shaha",
+          "designation": "Assistant Provost",
+          "email": "ksumishaha@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O20",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        },
+        {
+          "name": "Jannatul Ferdous",
+          "designation": "Assistant Provost",
+          "email": "jannatul.thm@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/facilities/residence/O20",
+          "checked_at": "2026-11-17",
+          "notes": [
+            "Published on the linked facilities roster but absent from the administrative office roster at review time. No appointment chronology is inferred."
+          ]
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [
+        "The linked facilities roster https://pust.ac.bd/facilities/residence/O20 contains 3 additional named professional role cards absent from the canonical administrative office page. Both source observations are retained; sources do not establish appointment dates."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Female-Hall--1",
+      "status": "reviewed",
+      "additional_source_urls": [
+        "https://pust.ac.bd/facilities/residence/O20",
+        "https://pust.ac.bd/facilities/residence"
+      ]
+    },
+    {
+      "id": "ict-cell",
+      "name": "ICT Cell",
+      "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+      "checked_at": "2026-11-17",
+      "office_email": "ictdirector@pust.ac.bd",
+      "office_phone": "+8802588843844",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Abdur Rahim",
+          "designation": "Director",
+          "email": "rahim@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Imran Hossain",
+          "designation": "Additional Director",
+          "email": "imran05ice@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Engr. Md. Arifur Rahman",
+          "designation": "System Analyst",
+          "email": "arif.ictcell@pust.ac.bd",
+          "office_phone": "+8802588844953",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Engr. Md. Husen Ali",
+          "designation": "System Analyst",
+          "email": "husen.ictcell@pust.ac.bd",
+          "office_phone": "+8802588844953",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Rubel Hossain",
+          "designation": "Senior Technical Officer (Computer)",
+          "email": "mdrubel@pust.ac.bd",
+          "office_phone": "+8802588845665",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Shaikh Esteak",
+          "designation": "Section Officer -G2",
+          "email": "esteak.ictcell@pust.ac.bd",
+          "office_phone": "+882588843844",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/ICT-Cell",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/ICT-Cell",
+      "status": "reviewed"
+    },
+    {
+      "id": "central-store",
+      "name": "Central Store",
+      "source_url": "https://pust.ac.bd/administration/Central-Store",
+      "checked_at": "2026-11-17",
+      "office_email": "",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Jahurul Haque",
+          "designation": "Assistant Registrar",
+          "email": "jahurul.cs@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Store",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Ramprosad Paul",
+          "designation": "Store Officer",
+          "email": "rppaul79cs@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Central-Store",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [
+        "Multiple top-level cards are published without an explicit head label; head flags are left false rather than inferring seniority."
+      ],
+      "contact_source_url": "https://pust.ac.bd/administration/Central-Store",
+      "status": "reviewed"
+    },
+    {
+      "id": "security-section",
+      "name": "Security Section",
+      "source_url": "https://pust.ac.bd/administration/Security-Section",
+      "checked_at": "2026-11-17",
+      "office_email": "security@pust.ac.bd",
+      "office_phone": "+8802588845184",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "S. M. Hashibur Rahman",
+          "designation": "Deputy Registrar (Security)",
+          "email": "",
+          "office_phone": "0731-65184",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Security-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Nawab Ali",
+          "designation": "Section Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Security-Section",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Akramul Haque",
+          "designation": "Security officer (Additional charge)",
+          "email": "akramul.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Security-Section",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Security-Section",
+      "status": "reviewed"
+    },
+    {
+      "id": "institutional-quality-assurance-cell-(iqac)",
+      "name": "Institutional Quality Assurance Cell (IQAC)",
+      "source_url": "https://pust.ac.bd/administration/Institutional-Quality-Assurance-Cell-(IQAC)",
+      "checked_at": "2026-11-17",
+      "office_email": "director_iqac@pust.ac.bd",
+      "office_phone": "+8802588844929",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Shamim Reza",
+          "designation": "Director",
+          "email": "shamim.reza@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Institutional-Quality-Assurance-Cell-(IQAC)",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Asfaqur Rahman",
+          "designation": "Additional Director",
+          "email": "asfaq@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Institutional-Quality-Assurance-Cell-(IQAC)",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Kamrul Hasan",
+          "designation": "Additional Registrar",
+          "email": "kamrul.reg@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Institutional-Quality-Assurance-Cell-(IQAC)",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Sheikh Mahmud Kanon",
+          "designation": "Section Officer",
+          "email": "kanon.regi@pust.ac.bd",
+          "office_phone": "01819841080",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Institutional-Quality-Assurance-Cell-(IQAC)",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Institutional-Quality-Assurance-Cell-(IQAC)",
+      "status": "reviewed"
+    },
+    {
+      "id": "central-mosque",
+      "name": "Central Mosque",
+      "source_url": "https://pust.ac.bd/administration/Central-Mosque",
+      "checked_at": "2026-11-17",
+      "office_email": "",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Mohammad Jalal Uddin",
+          "designation": "Imam",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Central-Mosque",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Central-Mosque",
+      "status": "reviewed"
+    },
+    {
+      "id": "estate-section",
+      "name": "Estate Section",
+      "source_url": "https://pust.ac.bd/administration/Estate-Section",
+      "checked_at": "2026-11-17",
+      "office_email": "",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Suza Uddin Dablu",
+          "designation": "Deputy Registrar",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Estate-Section",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Estate-Section",
+      "status": "reviewed"
+    },
+    {
+      "id": "dormitory",
+      "name": "Dormitory",
+      "source_url": "https://pust.ac.bd/administration/Dormitory",
+      "checked_at": "2026-11-17",
+      "office_email": "dormitory@pust.ac.bd",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Mir Khaled Iqbal Chowdhury",
+          "designation": "Administrator",
+          "email": "khalediqbal@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Dormitory",
+          "checked_at": "2026-11-17",
+          "additional_source_urls": [
+            "https://pust.ac.bd/facilities/residence/dormitory"
+          ]
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Dormitory",
+      "status": "reviewed",
+      "additional_source_urls": [
+        "https://pust.ac.bd/facilities/residence/dormitory",
+        "https://pust.ac.bd/facilities/residence"
+      ]
+    },
+    {
+      "id": "physical-education-office",
+      "name": "Physical Education Office",
+      "source_url": "https://pust.ac.bd/administration/Physical-Education-Office",
+      "checked_at": "2026-11-17",
+      "office_email": "enam1875@pust.ac.bd",
+      "office_phone": "+8802588843713",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Md. Enamul Haque",
+          "designation": "Director((In charge))",
+          "email": "enam1875@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Physical-Education-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Shahan Shah",
+          "designation": "Additional Director",
+          "email": "",
+          "office_phone": "0731 65281",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Physical-Education-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "G.M. Samsad Fuqhrul",
+          "designation": "Additional Director",
+          "email": "samsad@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Physical-Education-Office",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Mostafizur Rahman",
+          "designation": "Technical Officer",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Physical-Education-Office",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Physical-Education-Office",
+      "status": "reviewed"
+    },
+    {
+      "id": "guest-house",
+      "name": "Guest House",
+      "source_url": "https://pust.ac.bd/administration/Guest-House",
+      "checked_at": "2026-11-17",
+      "office_email": "dhakaguest@pust.ac.bd",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Abdullah Al Mamun",
+          "designation": "Administrator",
+          "email": "mamun@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Guest-House",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Rafiqul Islam",
+          "designation": "Assistant Controller of Examinations",
+          "email": "rafiqulislam@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Guest-House",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Oliullah",
+          "designation": "Section Officer",
+          "email": "oliullah@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Guest-House",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Shamim Mia",
+          "designation": "Security Guard, Dhaka Guest House",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Guest-House",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Al- Amin",
+          "designation": "Guest House Attendant, Pabna Guest House",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Guest-House",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Guest-House",
+      "status": "reviewed"
+    },
+    {
+      "id": "male-hall--2",
+      "name": "Male Hall -2",
+      "source_url": "https://pust.ac.bd/administration/Male-Hall--2",
+      "checked_at": "2026-11-17",
+      "office_email": "malehall2@pust.ac.bd",
+      "office_phone": "+88073165265",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Kamruzzaman",
+          "designation": "Provost",
+          "email": "kamrul_mba@pust.ac.bd",
+          "office_phone": "+88073165265",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Male-Hall--2",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Sharoar Hossain",
+          "designation": "Deputy Registrar",
+          "email": "sharoarhossain@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Male-Hall--2",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Md. Ramzan Mir",
+          "designation": "Section Officer-G2",
+          "email": "ramzan.jh@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Male-Hall--2",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Male-Hall--2",
+      "status": "reviewed"
+    },
+    {
+      "id": "female-hall--2",
+      "name": "Female Hall -2",
+      "source_url": "https://pust.ac.bd/administration/Female-Hall--2",
+      "checked_at": "2026-11-17",
+      "office_email": "femalehall2@pust.ac.bd",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Laila Arzumand Banu",
+          "designation": "Provost",
+          "email": "laila2019_arch@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Female-Hall--2",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "MST. Rebeca Sultana",
+          "designation": "Deputy Registrar",
+          "email": "",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Female-Hall--2",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Kaniz Fatema",
+          "designation": "Assistant Registrar",
+          "email": "kanizfatema.regi@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Female-Hall--2",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Female-Hall--2",
+      "status": "reviewed"
+    },
+    {
+      "id": "institute-of-innovation-and-entrepreneurship-development",
+      "name": "Institute of Innovation and Entrepreneurship Development",
+      "source_url": "https://pust.ac.bd/administration/Institute-of-Innovation-and-Entrepreneurship-Development",
+      "checked_at": "2026-11-17",
+      "office_email": "amirulthm@pust.ac.bd",
+      "office_phone": "0731-65265",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Amirul Islam",
+          "designation": "Director",
+          "email": "amirulthm@pust.ac.bd",
+          "office_phone": "0731-65265",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Institute-of-Innovation-and-Entrepreneurship-Development",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Institute-of-Innovation-and-Entrepreneurship-Development",
+      "status": "reviewed"
+    },
+    {
+      "id": "research-&-technology-transfer-cell",
+      "name": "Research & Technology Transfer Cell",
+      "source_url": "https://pust.ac.bd/administration/Research-&-Technology-Transfer-Cell",
+      "checked_at": "2026-11-17",
+      "office_email": "lokman.ali@pust.ac.bd",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Lokman Ali",
+          "designation": "Director",
+          "email": "lokman.ali@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Research-&-Technology-Transfer-Cell",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "name": "Dr. Md. Nasim Rana",
+          "designation": "Scientific Officer",
+          "email": "nasim.rttc@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": false,
+          "source_url": "https://pust.ac.bd/administration/Research-&-Technology-Transfer-Cell",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Research-&-Technology-Transfer-Cell",
+      "status": "reviewed"
+    },
+    {
+      "id": "cell-for-national-&-international-collaboration",
+      "name": "Cell for National & International Collaboration",
+      "source_url": "https://pust.ac.bd/administration/Cell-for-National-&-International-Collaboration",
+      "checked_at": "2026-11-17",
+      "office_email": "fom_06@pust.ac.bd",
+      "office_phone": "",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Omar Faruk",
+          "designation": "Director",
+          "email": "fom_06@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/administration/Cell-for-National-&-International-Collaboration",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "contact_source_url": "https://pust.ac.bd/administration/Cell-for-National-&-International-Collaboration",
+      "status": "reviewed"
+    },
+    {
+      "id": "dean-faculty-of-engineering-and-technology",
+      "name": "Dean Office, Faculty Of Engineering and Technology",
+      "faculty": "Faculty Of Engineering and Technology",
+      "source_url": "https://pust.ac.bd/academic/all_dean",
+      "checked_at": "2026-11-17",
+      "office_email": "dean.et@pust.ac.bd",
+      "office_phone": "",
+      "contact_source_url": "https://pust.ac.bd/academic/all_dean",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Anwar Hossain",
+          "designation": "Dean",
+          "email": "dean.et@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/academic/all_dean",
+          "checked_at": "2026-11-17",
+          "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100072"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "dean-faculty-of-science",
+      "name": "Dean Office, Faculty Of Science",
+      "faculty": "Faculty Of Science",
+      "source_url": "https://pust.ac.bd/academic/all_dean",
+      "checked_at": "2026-11-17",
+      "office_email": "dean.s@pust.ac.bd",
+      "office_phone": "",
+      "contact_source_url": "https://pust.ac.bd/academic/all_dean",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Shamim Reza",
+          "designation": "Dean",
+          "email": "dean.s@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/academic/all_dean",
+          "checked_at": "2026-11-17",
+          "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100038"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "dean-faculty-of-business-studies",
+      "name": "Dean Office, Faculty Of Business Studies",
+      "faculty": "Faculty Of Business Studies",
+      "source_url": "https://pust.ac.bd/academic/all_dean",
+      "checked_at": "2026-11-17",
+      "office_email": "dean.bs@pust.ac.bd",
+      "office_phone": "",
+      "contact_source_url": "https://pust.ac.bd/academic/all_dean",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Md. Hasebur Rahman",
+          "designation": "Dean",
+          "email": "dean.bs@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/academic/all_dean",
+          "checked_at": "2026-11-17",
+          "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100053"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "dean-faculty-of-humanities-and-social-science",
+      "name": "Dean Office, Faculty Of Humanities and Social Science",
+      "faculty": "Faculty Of Humanities and Social Science",
+      "source_url": "https://pust.ac.bd/academic/all_dean",
+      "checked_at": "2026-11-17",
+      "office_email": "dean.hss@pust.ac.bd",
+      "office_phone": "",
+      "contact_source_url": "https://pust.ac.bd/academic/all_dean",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Mir Humayun Kabir",
+          "designation": "Dean",
+          "email": "dean.hss@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/academic/all_dean",
+          "checked_at": "2026-11-17",
+          "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100114"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "status": "reviewed"
+    },
+    {
+      "id": "dean-faculty-of-life-and-earth-science",
+      "name": "Dean Office, Faculty Of Life and Earth Science",
+      "faculty": "Faculty Of Life and Earth Science",
+      "source_url": "https://pust.ac.bd/academic/all_dean",
+      "checked_at": "2026-11-17",
+      "office_email": "dean.les@pust.ac.bd",
+      "office_phone": "",
+      "contact_source_url": "https://pust.ac.bd/academic/all_dean",
+      "description": "",
+      "location": "",
+      "people": [
+        {
+          "name": "Dr. Mohammad Najmul Islam",
+          "designation": "Dean",
+          "email": "dean.les@pust.ac.bd",
+          "office_phone": "",
+          "additional_emails": [],
+          "additional_office_phones": [],
+          "is_head": true,
+          "source_url": "https://pust.ac.bd/academic/all_dean",
+          "checked_at": "2026-11-17",
+          "profile_url": "https://pust.ac.bd/academic/departments/dept_teachers/dept_teachers_profile/100104"
+        }
+      ],
+      "unfilled_roles": [],
+      "notes": [],
+      "status": "reviewed"
+    }
+  ],
+  "coverage": {
+    "inventory_office_count": 33,
+    "attempted_office_count": 33,
+    "named_office_role_count": 178,
+    "unfilled_role_count": 2,
+    "failed_offices": [],
+    "dean_office_count": 5,
+    "total_office_count": 38,
+    "supplemental_source_count": 10,
+    "named_head_count": 36,
+    "roles_with_institutional_email": 129,
+    "offices_with_office_email": 34,
+    "offices_with_office_phone": 24,
+    "unique_name_count": 169,
+    "reviewed_source_page_count": 44
+  },
+  "notes": [
+    "Official listings were observed on the checked date; publication does not guarantee appointments are current.",
+    "Only professional names, designations, pust.ac.bd emails and explicitly Office-labeled phones are retained. Personal emails and Personal-labeled phones are omitted.",
+    "Office locations and descriptions are blank unless an official office source explicitly states them. The shared website footer is not treated as an individual office contact.",
+    "The All-Office index embeds Vice-Chancellor cards below its inventory; individual office pages are the canonical sources for office personnel.",
+    "Head flags follow explicit primary leadership titles or the single leading card block preceding secondary/staff sections. Multiple unlabelled top-level cards do not receive inferred head flags.",
+    "Linked Male Hall 1 and Female Hall 1 facilities rosters publish additional assistant provosts absent from the administration pages. These supplemental source observations are included without assuming which roster is newer.",
+    "The five dean office records come from the official All Dean listing; only dean role contacts are retained, with faculty profile URLs included for identity reference.",
+    "Coverage is limited to all 33 All-Office entries, the All Dean directory, and linked library, medical, transport and residence roster/context pages. It does not assert completeness of staff who have no public directory entry.",
+    "Office contacts prefer explicit Contact Information blocks; where absent, the published leading card contact is retained with its source. Ambiguous or missing contact values remain empty."
+  ]
+}

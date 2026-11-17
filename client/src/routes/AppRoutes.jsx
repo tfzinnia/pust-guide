@@ -25,6 +25,13 @@ import AdminManagePage from "../pages/admin/AdminManagePage";
 
 import ProtectedRoute from "../components/layout/ProtectedRoute";
 import RoleRoute from "../components/layout/RoleRoute";
+import SearchPage from "../pages/shared/SearchPage";
+import SavedItems from "../pages/shared/SavedItems";
+import Notifications from "../pages/shared/Notifications";
+import Settings from "../pages/shared/Settings";
+import Recovery from "../pages/auth/Recovery";
+import ComplaintDetails from "../pages/student/ComplaintDetails";
+import Administration from "../pages/shared/Administration";
 
 export default function AppRoutes() {
   return (
@@ -33,6 +40,49 @@ export default function AppRoutes() {
       <Route path="/onboarding" element={<Onboarding />} />
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
+      <Route path="/forgot-password" element={<Recovery />} />
+      <Route path="/reset-password" element={<Recovery reset />} />
+      <Route path="/administration" element={<Administration />} />
+      <Route
+        path="/search"
+        element={
+          <ProtectedRoute>
+            <SearchPage />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/saved"
+        element={
+          <RoleRoute roles={["student", "teacher", "super_admin"]}>
+            <SavedItems />
+          </RoleRoute>
+        }
+      />
+      <Route
+        path="/notifications"
+        element={
+          <RoleRoute roles={["student", "teacher", "super_admin"]}>
+            <Notifications />
+          </RoleRoute>
+        }
+      />
+      <Route
+        path="/settings"
+        element={
+          <RoleRoute roles={["student", "teacher", "super_admin"]}>
+            <Settings />
+          </RoleRoute>
+        }
+      />
+      <Route
+        path="/complaints/:id"
+        element={
+          <RoleRoute roles={["student", "teacher", "super_admin"]}>
+            <ComplaintDetails />
+          </RoleRoute>
+        }
+      />
 
       <Route
         path="/"
@@ -79,14 +129,7 @@ export default function AppRoutes() {
         }
       />
 
-      <Route
-        path="/emergency"
-        element={
-          <ProtectedRoute>
-            <Emergency />
-          </ProtectedRoute>
-        }
-      />
+      <Route path="/emergency" element={<Emergency />} />
 
       <Route
         path="/guidelines"

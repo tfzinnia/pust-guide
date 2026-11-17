@@ -2,10 +2,14 @@ const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 const dotenv = require("dotenv");
 
-dotenv.config();
+dotenv.config({ path: path.join(__dirname, "../../.env"), quiet: true });
 
-const dbPath = process.env.DB_PATH || "./src/database/pust_guide.db";
-const fullPath = path.resolve(dbPath);
+const dbPath =
+  process.env.DB_PATH || path.join(__dirname, "../database/pust_guide.db");
+const fullPath =
+  dbPath === ":memory:"
+    ? dbPath
+    : path.resolve(path.join(__dirname, "../.."), dbPath);
 
 const db = new sqlite3.Database(fullPath, (err) => {
   if (err) {
@@ -16,6 +20,7 @@ const db = new sqlite3.Database(fullPath, (err) => {
 });
 
 db.run("PRAGMA foreign_keys = ON");
+db.configure("busyTimeout", 5000);
 
 function run(sql, params = []) {
   return new Promise((resolve, reject) => {
@@ -49,4 +54,8 @@ module.exports = {
   run,
   get,
   all,
+  exec: (sql) =>
+    new Promise((resolve, reject) =>
+      db.exec(sql, (error) => (error ? reject(error) : resolve())),
+    ),
 };

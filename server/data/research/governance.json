@@ -1,0 +1,747 @@
+{
+  "checked_at": "2026-11-17",
+  "source_policy": "Public official pust.ac.bd pages only. Live HTML read sequentially; no raw HTML, personal contact details, biographies, or notice/PDF personal information retained.",
+  "university": {
+    "name": "Pabna University of Science and Technology",
+    "short_name": "PUST",
+    "founded": 2008,
+    "university_day": "5 June",
+    "address": "Pabna University of Science and Technology, Pabna",
+    "phone": "+8802588842742",
+    "fax": "+8802588845173",
+    "email": "registraroffice@pust.ac.bd",
+    "general_contact_office": "Registrar Office",
+    "general_contact_phone": "+8802588845193",
+    "source_url": "https://pust.ac.bd/about/overview",
+    "checked_at": "2026-11-17",
+    "academic_activities_started": "2008-06-05",
+    "establishment_act_passed": "2001-07-15",
+    "history_source_url": "https://pust.ac.bd/about/history",
+    "notes": [
+      "The source footer gives the university name and Pabna, without a more detailed postal street address.",
+      "The overview states founded 2008; History and Plans states academic curriculum started on 05 June 2008 and the establishment Act passed on 15 July 2001.",
+      "The overview and home page differ in approximate student totals, so no current student count is copied into this research.",
+      "The general contact phone and registraroffice email come from the official site footer; the separate phone and fax fields come from the overview table."
+    ]
+  },
+  "bodies": [
+    {
+      "id": "regent-board",
+      "name": "Regent Board",
+      "source_url": "https://pust.ac.bd/governance/Regent-Board",
+      "checked_at": "2026-11-17",
+      "people": [
+        {
+          "id": "regent-board-01",
+          "name": "Prof. Dr. Abul Hasnat Md. Shamim",
+          "designation": "Vice Chancellor; Pabna University of Science and Technology,Pabna",
+          "email": "vc@pust.ac.bd",
+          "office_phone": "+8802588842379",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-02",
+          "name": "Prof. Dr. Md. Nazrul Islam",
+          "designation": "Pro Vice Chancellor; Pabna University of Science and Technology,Pabna",
+          "email": "provc@pust.ac.bd",
+          "office_phone": "+8802588844111",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-03",
+          "name": "Prof. Dr. Md. Shamim Ahsan",
+          "designation": "Treasurer; Pabna University of Science and Technology,Pabna",
+          "email": "treasurer@pust.ac.bd",
+          "office_phone": "02588844963",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-05",
+          "name": "Prof. Dr. S M Abdur Razzak",
+          "designation": "Electrical & Electronic Engineering; Rajshahi University of Engineering & Technology; Bangladesh",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-06",
+          "name": "Dr. Mohammed Nazrul lslam Khan",
+          "designation": "Chief Scientific Officer; Atomic Energy Commission, Dhaka",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-07",
+          "name": "Prof. Dr. Mamunur Rashid",
+          "designation": "Department of Pharmacy; University of Rajshahi, Rajshahi",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-08",
+          "name": "Prof. Dr. Farhad Haleem",
+          "designation": "Chairman(Governing Body); Uttara Adhunik Medical College (UAMC)",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-09",
+          "name": "Prof. Dr. A. B. M. Obaidul Islam",
+          "designation": "Department of Physics; University of Dhaka",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-10",
+          "name": "Prof. Dr. Abu Naser Ahmed Ishtiaque",
+          "designation": "Department of Marketing; University of Dhaka",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-12",
+          "name": "Dr. Mir Khaled Iqbal Chowdhury",
+          "designation": "Professor; Department of Economics; Pabna University of Science and Technology",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-13",
+          "name": "Dr. Md. Amirul Islam",
+          "designation": "Professor; Department of Business Administration; Pabna University of Science and Technology",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-14",
+          "name": "Dr. Md. Rashedul Haque",
+          "designation": "Professor; Department of Civil Engineering; Pabna University of Science and Technology",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-15",
+          "name": "Mr. Showkat Aziz Russell",
+          "designation": "Chairman and Managing Director of Amber Group",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-16",
+          "name": "Prof. Md. Lutfor Rahman",
+          "designation": "Department Head , Physics; Govt. Edward College, Pabna",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "regent-board-17",
+          "name": "Prof. Minna Easmin",
+          "designation": "Department of Zoology; Pabna Govt. Women’s College",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unnamed_roles": [
+        {
+          "designation": "Additional Secretary (University); Secondary and Higher Education Division; Education Ministry,; Bangladesh",
+          "email": null,
+          "office_phone": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17",
+          "note": "The source supplies a role without a person name; omitted from named people."
+        },
+        {
+          "designation": "Chairman; Board of Intermediate and Secondary Education Rajshahi",
+          "email": null,
+          "office_phone": null,
+          "source_url": "https://pust.ac.bd/governance/Regent-Board",
+          "checked_at": "2026-11-17",
+          "note": "The source supplies a role without a person name; omitted from named people."
+        }
+      ],
+      "notes": [
+        "The source lists membership and professional roles but does not explicitly identify a chair or head of this governance body.",
+        "Only contact values explicitly labelled Office are included; personal phone numbers and personal email addresses are excluded."
+      ],
+      "coverage": {
+        "source_rows": 17,
+        "named_people_rows": 15,
+        "unique_named_people": 15,
+        "unnamed_roles": 2,
+        "all_named_rows_collected": true
+      }
+    },
+    {
+      "id": "academic-council",
+      "name": "Academic Council",
+      "source_url": "https://pust.ac.bd/governance/Academic-Council",
+      "checked_at": "2026-11-17",
+      "people": [
+        {
+          "id": "academic-council-01",
+          "name": "Prof. Dr. Abul Hasnat Md. Shamim",
+          "designation": "Vice Chancellor; Pabna University of Science and Technology,Pabna",
+          "email": "vc@pust.ac.bd",
+          "office_phone": "+8802588842379",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-02",
+          "name": "Prof. Dr. Md. Nazrul Islam",
+          "designation": "Pro Vice Chancellor; Pabna University of Science and Technology,Pabna",
+          "email": "provc@pust.ac.bd",
+          "office_phone": "+8802588844111",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-03",
+          "name": "Dr. Md. Nazmus Sadath",
+          "designation": "Professor; Department of Forestry and Wood Technology Discipline; Khulna University, Khulna-9208",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-04",
+          "name": "Dr. Md. Masudul Hasan Khan",
+          "designation": "Professor; Department of Biochemistry and Molecular Biology; University of Rajshahi",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-05",
+          "name": "Dr. Md. Al Mamun",
+          "designation": "Chief Scientific Officer; Department of Bangladesh Atomic Energy Commission; Dhaka ,Bangladesh",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-06",
+          "name": "Dr. Md Tozammel Hossain",
+          "designation": "Professor; Department of Arabic Language and Literature; Islamic University, Bangladesh",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-07",
+          "name": "Dr. Nadira Islam",
+          "designation": "Chief Scientific Officer; Department of Bangladesh Sugarcrop Research Institute (BSRI),; Ishurdi-6620, Pabna, Bangladesh",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-08",
+          "name": "Dr. Md. Anwar Hossain",
+          "designation": "Dean,; Faculty of Engineering and Technology; Pabna University of Science and Technology,Pabna",
+          "email": "manwar.ice@pust.ac.bd",
+          "office_phone": "+8802588845644",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-09",
+          "name": "Dr. Md. Shamim Reza",
+          "designation": "Dean,; Faculty of Science; Pabna University of Science and Technology,Pabna",
+          "email": "shamim.reza@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-10",
+          "name": "Dr. Md. Hasebur Rahman",
+          "designation": "Dean,; Faculty of Business Studies; Pabna University of Science and Technology,Pabna",
+          "email": "haseb@pust.ac.bd",
+          "office_phone": "+88073165265",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-11",
+          "name": "Dr. Mir Humayun Kabir",
+          "designation": "Dean,; Faculty of Humanities and Social Science; Pabna University of Science and Technology,Pabna",
+          "email": "biplob.humayun@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-12",
+          "name": "Dr. Mohammad Najmul Islam",
+          "designation": "Dean,; Faculty of Life and Earth Science; Pabna University of Science and Technology,Pabna",
+          "email": "najmul@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-13",
+          "name": "Dr. Md. Abdur Rahim",
+          "designation": "Chairman,; Department of Computer Science and Engineering; Pabna University of Science and Technology,Pabna",
+          "email": "rahim@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-14",
+          "name": "Dr. T. H. M. Sumon Rashid",
+          "designation": "Chairman,; Department of Electrical and Electronic Engineering; Pabna University of Science and Technology,Pabna",
+          "email": "sumonrashid.eee@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-15",
+          "name": "Dr. Md. Fazlul Hoque",
+          "designation": "Chairman,; Department of Mathematics; Pabna University of Science and Technology,Pabna",
+          "email": "fazlulmath@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-16",
+          "name": "Dr. Md. Kamruzzaman",
+          "designation": "Chairman,; Department of Business Administration; Pabna University of Science and Technology,Pabna",
+          "email": "kamrul_mba@pust.ac.bd",
+          "office_phone": "+88073165265",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-17",
+          "name": "Dr. Md. Najmul Hossain",
+          "designation": "Chairman,; Department of Electrical, Electronic and Communication Engineering; Pabna University of Science and Technology,Pabna",
+          "email": "najmul_eece@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-18",
+          "name": "Dr. Md. Anwar Hossain",
+          "designation": "Chairman,; Department of Information and Communication Engineering; Pabna University of Science and Technology,Pabna",
+          "email": "manwar.ice@pust.ac.bd",
+          "office_phone": "+8802588845644",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-19",
+          "name": "Dr. Md. Khairul Alam",
+          "designation": "Chairman,; Department of Physics; Pabna University of Science and Technology,Pabna",
+          "email": "khairul_phy@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-20",
+          "name": "Dr. Mir Khaled Iqbal Chowdhury",
+          "designation": "Chairman ,; Department of Economics; Pabna University of Science and Technology,Pabna",
+          "email": "khalediqbal@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-21",
+          "name": "Dr. Mohammad Najmul Islam",
+          "designation": "Chairman,; Department of Geography and Environment; Pabna University of Science and Technology,Pabna",
+          "email": "najmul@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-22",
+          "name": "Dr. Mir Humayun Kabir",
+          "designation": "Chairman,; Department of Bangla; Pabna University of Science and Technology,Pabna",
+          "email": "biplob.humayun@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-23",
+          "name": "Dr. Tahmina Tasnim Nahar",
+          "designation": "Chairman ,; Department of Civil Engineering; Pabna University of Science and Technology,Pabna",
+          "email": "tasnim@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-24",
+          "name": "Laila Arzumand Banu",
+          "designation": "Chairman,; Department of Architecture; Pabna University of Science and Technology,Pabna",
+          "email": "laila2019_arch@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-25",
+          "name": "Dr. Md. Shamim Reza",
+          "designation": "Professor,; Department of Pharmacy; Pabna University of Science and Technology,Pabna",
+          "email": "shamim.reza@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-26",
+          "name": "Ratan Kumar Paul",
+          "designation": "Chairman,; Department of Chemistry; Pabna University of Science and Technology,Pabna",
+          "email": "ratanpaul05@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-27",
+          "name": "Dr. Md. Jahidul Islam",
+          "designation": "Chairman,; Department of Social Work; Pabna University of Science and Technology,Pabna",
+          "email": "jahidsw@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-28",
+          "name": "Dr. Sabba Ruhi",
+          "designation": "Chairman,; Department of Statistics and Data Science; Pabna University of Science and Technology,Pabna",
+          "email": "sabba.ruhi@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-29",
+          "name": "Dr. Md. Ashrafuzzaman Pramanik",
+          "designation": "Chairman,; Department of Urban and Regional Planning; Pabna University of Science and Technology,Pabna",
+          "email": "ashraf@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-30",
+          "name": "Dr. Md. Mokarrom Hossain",
+          "designation": "Chairman,; Department of English; Pabna University of Science and Technology,Pabna",
+          "email": "mokarrom@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-31",
+          "name": "Md. Al-Fahad Bhuiyan",
+          "designation": "Chairman,; Department of Public Administration; Pabna University of Science and Technology,Pabna",
+          "email": "fahadpa@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-32",
+          "name": "Dr. Md. Habibullah",
+          "designation": "Chairman,; Department of History; Pabna University of Science and Technology,Pabna",
+          "email": "habibullah.his@pust.ac.bd",
+          "office_phone": "+8802588844926",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-33",
+          "name": "Md. Ashikur Rahman Avi",
+          "designation": "Chairman,; Department of Tourism and Hospitality Management; Pabna University of Science and Technology,Pabna",
+          "email": "ashikur.thm@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "academic-council-34",
+          "name": "Dr. Md. Najmul Hossain",
+          "designation": "Professor,; Department of Electrical, Electronic and Communication Engineering; Pabna University of Science and Technology,Pabna",
+          "email": "najmul_eece@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Academic-Council",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unnamed_roles": [],
+      "notes": [
+        "The source lists membership and professional roles but does not explicitly identify a chair or head of this governance body.",
+        "Only contact values explicitly labelled Office are included; personal phone numbers and personal email addresses are excluded.",
+        "The live page lists Dr. Md. Najmul Hossain twice, as EECE Chairman and as EECE Professor; both role rows are preserved.",
+        "Dr. Md. Anwar Hossain, Dr. Md. Shamim Reza, Dr. Mir Humayun Kabir and Dr. Mohammad Najmul Islam each appear in both a faculty and department role; these separate role rows are preserved.",
+        "An earlier cached web extract showed a different EECE chairman. The direct live HTML checked on 2026-11-17 lists Dr. Md. Najmul Hossain and agrees with the live home-page department summary.",
+        "The Pharmacy department row on this body page is labelled Professor rather than Chairman; the source designation is preserved."
+      ],
+      "coverage": {
+        "source_rows": 34,
+        "named_people_rows": 34,
+        "unique_named_people": 29,
+        "unnamed_roles": 0,
+        "all_named_rows_collected": true
+      }
+    },
+    {
+      "id": "finance-committee",
+      "name": "Finance Committee",
+      "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+      "checked_at": "2026-11-17",
+      "people": [
+        {
+          "id": "finance-committee-01",
+          "name": "Prof. Dr. Abul Hasnat Md. Shamim",
+          "designation": "Vice Chancellor; Pabna University of Science and Technology,Pabna",
+          "email": "vc@pust.ac.bd",
+          "office_phone": "+8802588842379",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "finance-committee-02",
+          "name": "Prof. Dr. Md. Nazrul Islam",
+          "designation": "Pro Vice Chancellor; Pabna University of Science and Technology,Pabna",
+          "email": "provc@pust.ac.bd",
+          "office_phone": "+8802588844111",
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "finance-committee-03",
+          "name": "Prof. Dr. Md. Shamim Ahsan",
+          "designation": "Treasurer; Pabna University of Science and Technology,Pabna",
+          "email": null,
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+          "checked_at": "2026-11-17"
+        },
+        {
+          "id": "finance-committee-04",
+          "name": "Bijon Kumar Brahma",
+          "designation": "Registrar; Pabna University of Science and Technology,Pabna",
+          "email": "registrar@pust.ac.bd",
+          "office_phone": null,
+          "is_head": null,
+          "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+          "checked_at": "2026-11-17"
+        }
+      ],
+      "unnamed_roles": [
+        {
+          "designation": "Principal; Govt. Edward College, Pabna",
+          "email": null,
+          "office_phone": "0731-66126",
+          "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+          "checked_at": "2026-11-17",
+          "note": "The source supplies a role without a person name; omitted from named people."
+        },
+        {
+          "designation": "Account manager; University of Rajshahi,Rajshahi",
+          "email": null,
+          "office_phone": null,
+          "source_url": "https://pust.ac.bd/governance/Finance-Committee",
+          "checked_at": "2026-11-17",
+          "note": "The source supplies a role without a person name; omitted from named people."
+        }
+      ],
+      "notes": [
+        "The source lists membership and professional roles but does not explicitly identify a chair or head of this governance body.",
+        "Only contact values explicitly labelled Office are included; personal phone numbers and personal email addresses are excluded."
+      ],
+      "coverage": {
+        "source_rows": 6,
+        "named_people_rows": 4,
+        "unique_named_people": 4,
+        "unnamed_roles": 2,
+        "all_named_rows_collected": true
+      }
+    }
+  ],
+  "resources": [
+    {
+      "id": "academic-calendar",
+      "title": "Academic Calendar",
+      "url": "https://pust.ac.bd/academic/academic_calender",
+      "description": "Official page for the academic calendar.",
+      "note": "The page was reachable; no calendar PDF was linked in its main content at verification.",
+      "source_url": "https://pust.ac.bd/academic/academic_calender",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "undergraduate-admission",
+      "title": "Undergraduate Admission",
+      "url": "https://pust.ac.bd/admission/undergraduate",
+      "description": "Official undergraduate admission notices and instructions.",
+      "source_url": "https://pust.ac.bd/admission/undergraduate",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "graduate-admission",
+      "title": "Graduate Admission",
+      "url": "https://pust.ac.bd/admission/graduate",
+      "description": "Official graduate admission notices and instructions.",
+      "source_url": "https://pust.ac.bd/admission/graduate",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "forms",
+      "title": "Forms Download",
+      "url": "https://pust.ac.bd/academic/form_download",
+      "description": "Official university forms download index.",
+      "source_url": "https://pust.ac.bd/academic/form_download",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "library",
+      "title": "Central Library",
+      "url": "https://pust.ac.bd/facilities/library",
+      "description": "Official central library information and links.",
+      "source_url": "https://pust.ac.bd/facilities/library",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "medical",
+      "title": "Medical Facilities",
+      "url": "https://pust.ac.bd/facilities/medical",
+      "description": "Official medical facilities information and doctor schedule.",
+      "source_url": "https://pust.ac.bd/facilities/medical",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "transport",
+      "title": "Transportation Pool",
+      "url": "https://pust.ac.bd/facilities/transportation",
+      "description": "Official transportation pool information.",
+      "source_url": "https://pust.ac.bd/facilities/transportation",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    },
+    {
+      "id": "residences",
+      "title": "Residence Facilities",
+      "url": "https://pust.ac.bd/facilities/residence",
+      "description": "Official residence facilities information.",
+      "source_url": "https://pust.ac.bd/facilities/residence",
+      "checked_at": "2026-11-17",
+      "http_status": 200
+    }
+  ],
+  "coverage": {
+    "governance_bodies_expected": 3,
+    "governance_bodies_checked": 3,
+    "named_role_rows": 53,
+    "unique_named_people": 42,
+    "unnamed_roles": 4,
+    "student_resource_links": 8,
+    "all_named_governance_rows_collected": true
+  },
+  "notes": [
+    "Membership is represented as role rows; the same named person can appear more than once within a body when the official page lists separate roles.",
+    "Names and role spellings are preserved except for whitespace normalization.",
+    "No governance body head is inferred from list order.",
+    "Governance membership may overlap department/office directory data collected separately; the source body membership and role are retained here."
+  ]
+}

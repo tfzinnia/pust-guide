@@ -20,21 +20,21 @@ router.post(
   "/",
   protect,
   allowRoles("teacher", "super_admin"),
-  createMarkingCriteria
+  createMarkingCriteria,
 );
 
 router.patch(
   "/:id",
   protect,
   allowRoles("teacher", "super_admin"),
-  updateMarkingCriteria
+  updateMarkingCriteria,
 );
 
 router.delete(
   "/:id",
   protect,
   allowRoles("teacher", "super_admin"),
-  deleteMarkingCriteria
+  deleteMarkingCriteria,
 );
 
 module.exports = router;

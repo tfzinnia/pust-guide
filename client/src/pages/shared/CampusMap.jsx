@@ -1,109 +1,139 @@
-import { LocateFixed, MapPin, Navigation, Search } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
-import api from "../../api/axios";
+import { useState } from "react";
+import { useSearchParams } from "react-router-dom";
+import { LocateFixed, Navigation, MapPin } from "lucide-react";
 import AppLayout from "../../components/layout/AppLayout";
-
+import PageHeader from "../../components/ui/PageHeader";
+import { DataState, Feedback } from "../../components/ui/Feedback";
+import useApi from "../../hooks/useApi";
+const campus = { latitude: 24.01343, longitude: 89.2791, name: "PUST campus" };
 export default function CampusMap() {
-  const [locations, setLocations] = useState([]);
-  const [search, setSearch] = useState("");
-
-  useEffect(() => {
-    async function load() {
-      const res = await api.get("/map");
-      setLocations(res.data);
+  const request = useApi("/map"),
+    [params] = useSearchParams();
+  const [search, setSearch] = useState(""),
+    [selected, setSelected] = useState(Number(params.get("location")) || null),
+    [position, setPosition] = useState(null),
+    [error, setError] = useState("");
+  const rows = (request.data || []).filter((item) =>
+    `${item.name} ${item.category} ${item.description}`
+      .toLowerCase()
+      .includes(search.toLowerCase()),
+  );
+  const location = request.data?.find((item) => item.id === selected);
+  const point =
+    position ||
+    (location?.latitude != null && location?.longitude != null
+      ? location
+      : campus);
+  const lat = Number(point.latitude),
+    lon = Number(point.longitude),
+    delta = 0.004;
+  const embed = `https://www.openstreetmap.org/export/embed.html?bbox=${lon - delta},${lat - delta},${lon + delta},${lat + delta}&layer=mapnik&marker=${lat},${lon}`;
+  function locate() {
+    setError("");
+    if (!navigator.geolocation) {
+      setError("Location is not available in this browser.");
+      return;
     }
-
-    load();
-  }, []);
-
-  const fallback = [
-    { id: 1, name: "CSE Department", category: "Academic", description: "Engineering Building" },
-    { id: 2, name: "EEE Department", category: "Academic", description: "Engineering Building" },
-    { id: 3, name: "Central Library", category: "Facility", description: "Library Building" },
-    { id: 4, name: "Admin Building", category: "Office", description: "Administrative Building" },
-    { id: 5, name: "Medical Center", category: "Facility", description: "Health support" },
-  ];
-
-  const data = locations.length ? locations : fallback;
-
-  const filtered = useMemo(() => {
-    return data.filter((item) =>
-      `${item.name} ${item.category} ${item.description}`
-        .toLowerCase()
-        .includes(search.toLowerCase())
+    navigator.geolocation.getCurrentPosition(
+      (result) =>
+        setPosition({
+          latitude: result.coords.latitude,
+          longitude: result.coords.longitude,
+          name: "Your location",
+        }),
+      () =>
+        setError(
+          "Your location could not be accessed. Allow location access or choose a campus location.",
+        ),
+      { enableHighAccuracy: true, timeout: 10000 },
     );
-  }, [data, search]);
-
+  }
   return (
     <AppLayout>
-      <section className="gradient-blue-green rounded-b-[24px] px-6 pb-8 pt-8 text-white">
-        <h1 className="text-2xl font-bold">Campus Map</h1>
-
-        <div className="mt-6 flex items-center gap-3 rounded-xl bg-white px-4 py-3 text-slate-600">
-          <Search size={21} />
-          <input
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            placeholder="Search locations..."
-            className="w-full bg-transparent text-sm outline-none"
-          />
-        </div>
-      </section>
-
+      <PageHeader
+        title="Find your way around"
+        subtitle="Explore campus locations and open walking directions"
+      />
       <main className="page-pad py-6">
         <div className="card overflow-hidden">
-          <div className="relative flex h-64 items-center justify-center bg-gradient-to-br from-green-100 to-blue-100">
-            <div className="grid grid-cols-3 gap-4 text-white">
-              <Marker label="Eng" color="bg-blue-600" />
-              <Marker label="Library" color="bg-green-600" />
-              <Marker label="Admin" color="bg-purple-600" />
-              <Marker label="Cafe" color="bg-orange-600" />
-              <Marker label="Mosque" color="bg-emerald-600" />
-              <Marker label="Medical" color="bg-red-600" />
-              <Marker label="Boys Hall" color="bg-teal-600" />
-              <Marker label="Sports" color="bg-indigo-600" />
-              <Marker label="Girls Hall" color="bg-pink-600" />
+          <iframe
+            title={`Map of ${point.name}`}
+            src={embed}
+            className="h-80 w-full border-0 md:h-96"
+            loading="lazy"
+          />
+          <div className="flex flex-wrap items-center justify-between gap-3 p-4">
+            <p className="font-semibold">{point.name}</p>
+            <div className="flex flex-wrap gap-2">
+              <button className="btn-secondary" onClick={locate}>
+                <LocateFixed size={16} />
+                My location
+              </button>
+              {position && (
+                <button
+                  className="btn-secondary"
+                  onClick={() => setPosition(null)}
+                >
+                  Back to campus
+                </button>
+              )}
+              <a
+                className="btn-primary"
+                href={`https://www.google.com/maps/dir/?api=1&destination=${location?.latitude != null && location?.longitude != null ? `${location.latitude},${location.longitude}` : encodeURIComponent("Pabna University of Science and Technology")}&travelmode=walking`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Navigation size={16} />
+                Directions
+              </a>
             </div>
-
-            <button className="absolute bottom-4 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-white text-blue-600 shadow">
-              <Navigation size={20} />
-            </button>
-          </div>
-
-          <div className="bg-white py-4 text-center text-sm text-slate-500">
-            Interactive campus map • Tap markers for details
           </div>
         </div>
-
-        <h2 className="mb-4 mt-7 text-xl font-bold">All Locations</h2>
-
-        <div className="space-y-3">
-          {filtered.map((location) => (
-            <div key={location.id} className="card flex items-center gap-4 p-4">
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-600 text-white">
-                <MapPin size={22} />
-              </div>
-
-              <div className="flex-1">
-                <h3 className="font-bold">{location.name}</h3>
-                <p className="mt-1 text-sm text-slate-500">{location.description}</p>
-              </div>
-
-              <span className="rounded-full bg-green-500 px-3 py-1 text-xs font-bold text-white">
-                {location.category}
-              </span>
-            </div>
-          ))}
-        </div>
+        <Feedback error={error} />
+        {location && location.latitude == null && (
+          <p className="notice mt-4">
+            An exact location has not been published for {location.name}. The
+            map shows the campus overview.
+          </p>
+        )}
+        <label className="field mt-6">
+          Search campus locations
+          <input
+            type="search"
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+            placeholder="Library, medical center, departments…"
+          />
+        </label>
+        <DataState request={request} empty={!rows.length}>
+          <div className="grid gap-3 md:grid-cols-2">
+            {rows.map((item) => (
+              <button
+                key={item.id}
+                onClick={() => {
+                  setSelected(item.id);
+                  setPosition(null);
+                  window.scrollTo({ top: 0, behavior: "smooth" });
+                }}
+                className={`card flex items-center gap-3 p-4 text-left ${selected === item.id ? "border-blue-500 ring-1 ring-blue-500" : ""}`}
+              >
+                <MapPin className="shrink-0 text-blue-600" size={22} />
+                <span>
+                  <b className="block">{item.name}</b>
+                  <span className="mt-1 block text-sm text-slate-500">
+                    {item.category} · {item.description}
+                  </span>
+                  {item.latitude == null && (
+                    <span className="text-xs text-slate-500">
+                      Coordinates not published
+                    </span>
+                  )}
+                </span>
+              </button>
+            ))}
+          </div>
+        </DataState>
       </main>
     </AppLayout>
-  );
-}
-
-function Marker({ label, color }) {
-  return (
-    <button className={`rounded-xl px-8 py-3 text-sm font-bold shadow ${color}`}>
-      {label}
-    </button>
   );
 }
